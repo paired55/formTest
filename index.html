@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form Template</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="script.js" defer></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="leftSide">
+			<img src="assets/seoul.jpg" alt="A picture of Seoul, South Korea" />
+			<figcaption class="credits">
+				Photo by
+				<a href="https://unsplash.com/@atluminon" target="_blank">Clark Gu</a>
+				on Unsplash
+			</figcaption>
+			<div class="overlay">
+				<p class="salah">SALAH</p>
+			</div>
+		</div>
+
+		<div class="rightSide">
+			<div class="top">
+				<p class="quote">
+					This is not a real online service! You know you need something like
+					this in your life to help you realise your deepest dreams. Sign up
+					<em>now</em> to get started.
+				</p>
+				<p class="quote">You <em>know</em> you want to.</p>
+			</div>
+
+			<div class="mid">
+				<form action="#" method="post">
+					<p class="quote">Lets Do This!</p>
+					<div class="formRows">
+						<div class="seperator">
+							<label for="firstName">FIRST NAME</label>
+							<input type="text" name="firstName" id="firstName" />
+						</div>
+
+						<div class="seperator">
+							<label for="lastName">LAST NAME</label>
+							<input type="text" name="lastName" id="lastName" />
+						</div>
+					</div>
+
+					<div class="formRows">
+						<div class="seperator">
+							<label for="email">EMAIL</label>
+							<input type="email" name="email" id="email" />
+						</div>
+
+						<div class="seperator">
+							<label for="phone">PHONE NUMBER</label>
+							<input type="tel" name="phone" id="phone" />
+						</div>
+					</div>
+
+					<div class="formRows">
+						<div class="seperator">
+							<label for="password">PASSWORD</label>
+							<input type="password" name="password" id="password" />
+						</div>
+
+						<div class="seperator">
+							<label for="pwd">CONFIRM PASSWORD</label>
+							<input type="password" name="pwd" id="pwd" />
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<div class="bot">
+				<button class="createAcc">Create Account</button>
+				<p class="already">
+					Already have an account?
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+						>Log in</a
+					>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
